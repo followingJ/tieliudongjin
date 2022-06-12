@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+.surround{width: 100%;
+	height: 1500px;
+	margin: 0 auto;
+	background-color: #4E4F3A;
+}
+
+.head{
+	margin: 0 auto;
+	width: 100%;
+	height: 120px;
+	    background: rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+	position: fixed;
+	top:0;
+	z-index: 99;
+}
+.title{height: 100px;
+	font-size:80px;
+	float: left;
+	margin-top: 20px;
+	font-family:"即墨体";
+	color: rgba(234,219,131,1.00)
+}
+.level{height: 40px;
+	width: auto;
+	list-style: none;
+	float: left;
+	margin: 0 auto;
+	font-family:"华文新魏";
+	padding-top: 70px;
+}
+.level li{list-style: none;
+	width:170px;
+	height: 50px;
+	float: left;
+	font-size: 30px;
+	text-align:center;
+	padding-right: 50px;
+}
+.level li a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.level li:hover::before{
+	display:block;
+	
+}
+.level li a:hover{
+	color: #FFFFFF;
+}
+.picture{
+	position: relative;
+	top: 130px;
+	right: -70px;
+	width: 300px;
+}
+.picture2{
+	position: relative;
+	top: -474px;
+	right: -420px;
+	width: 300px;
+}
+.picture3{
+	position: relative;
+	top: -1078px;
+	right: -770px;
+	width: 300px;
+}
+.picture4{
+	position: relative;
+	top: -1682px;
+	right: -1120px;
+	width: 300px;
+}
+.miniTitle{
+	position: relative;
+	top:-1770px;
+	right: -1220px;
+	width: 200px;
+	
+}
+p{
+	font-family: "华文新魏";
+	font-size: 35px;
+}
+.picture5{
+	position: relative;
+	top: -1650px;
+	right: -70px;
+	width: 300px;
+}
+.picture6{
+	position: relative;
+	top: -2255px;
+	right: -420px;
+	width: 300px;
+}
+.picture7{
+	position: relative;
+	top: -2860px;
+	right: -770px;
+	width: 300px;
+}
+.miniTitle2{
+	position: relative;
+	top:-2970px;
+	right: -785px;
+	width: 300px;
+}
+.picture8{
+	position: relative;
+	top: -3606px;
+	right: -1100px;
+	width: 300px;
+}
